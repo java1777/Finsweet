@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const Button = ({ text, icon, onClick, className = "" }) => {
   return (
-    <button 
+    <button
       onClick={onClick}
       className={`flex items-center gap-2 font-medium text-base leading-[150%] text-white hover:text-[#ffd3af] transition ${className} cursor-pointer`}
     >
