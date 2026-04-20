@@ -1,6 +1,5 @@
 import Button from "../Button/btn";
 import arrowRightBold from "../../assets/icons/arrowRightBold.svg";
-import arrowRight from "../../assets/icons/arrowRight.svg";
 import service1 from "../../assets/icons/service1.svg";
 import service2 from "../../assets/icons/service2.svg";
 import service3 from "../../assets/icons/service3.svg";
@@ -50,9 +49,9 @@ export default function Services() {
           </div>
 
           <div className="flex flex-col px-12 pt-12 pb-11 w-101.25 h-83.75 bg-white">
-            <img src={service1} alt="" className="w-11.75 h-11.75 pb-4" />
+            <img src={service2} alt="" className="w-11.75 h-11.75 pb-4" />
             <p className="font-semibold text-[16px] leading-[175%] text-black pb-2">
-              Technical support
+              Testing Management
             </p>
             <span className="font-normal text-[16px] leading-[150%] text-[#5d5f6d]">
               We aim to attain the greatest satisfaction for our clients and be
@@ -76,9 +75,9 @@ export default function Services() {
           </div>
 
           <div className="flex flex-col px-12 pt-12 pb-11 w-101.25 h-83.75 bg-white">
-            <img src={service1} alt="" className="w-11.75 h-11.75 pb-4" />
+            <img src={service3} alt="" className="w-11.75 h-11.75 pb-4" />
             <p className="font-semibold text-[16px] leading-[175%] text-black pb-2">
-              Technical support
+              Development
             </p>
             <span className="font-normal text-[16px] leading-[150%] text-[#5d5f6d]">
               We aim to attain the greatest satisfaction for our clients and be
