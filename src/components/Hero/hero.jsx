@@ -9,7 +9,7 @@ import Button from "../Button/btn";
 
 export default function Hero() {
   return (
-    <section className="flex items-center justify-between px-40 py-24 ">
+    <section className="flex items-center justify-between px-40 py-24 bg-[#1e1e2e]">
       <div className="max-w-lg">
         <h1 className="font-semibold text-[56px] leading-[121%] text-white mb-6 pt-14">
           Transform Your Idea Into Reality with Finsweet
@@ -18,7 +18,11 @@ export default function Hero() {
           The entire Finsweet team knows what's good with Webflow and you can
           too with 1 week and a good attitude.
         </p>
-        <Button text="Request Quote" icon={arrowRight} className="bg-[#444cfc] py-5 px-8 hover:bg-green-400 transition"/>
+        <Button
+          text="Request Quote"
+          icon={arrowRight}
+          className="bg-[#444cfc] py-5 px-8 hover:bg-green-400 transition"
+        />
 
         <div className="flex items-center gap-8 mt-110">
           <div className="flex flex-col shrink-0">
@@ -43,7 +47,11 @@ export default function Hero() {
       </div>
 
       <div className="relative max-w-xl w-full mb-8">
-        <img src={heroBg} alt="hero" className="w-full rounded-lg block mb-14" />
+        <img
+          src={heroBg}
+          alt="hero"
+          className="w-full rounded-lg block mb-14"
+        />
         <div className="absolute w-4 h-28 bg-[#ffd3af] bottom-14 -left-3"></div>
         <div className="absolute w-4 h-20 bg-indigo-600 bottom-14 -right-3"></div>
       </div>

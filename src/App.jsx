@@ -10,7 +10,7 @@ import Newsletter from "./components/Newsletter/newsletter";
 
 export default function App() {
   return (
-    <div className="bg-[#1e1e2e] min-h-screen">
+    <div className=" min-h-screen">
       <Navbar />
       <Hero />
       <About />
