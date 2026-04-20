@@ -4,6 +4,7 @@ import About from "./components/About/about";
 import Expertise from "./components/Expertise/expertise";
 import Services from "./components/Services/services";
 import Process from "./components/Process/process";
+import Testimonials from "./components/Testimonials/testimonials";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Expertise />
       <Services />
       <Process />
+      <Testimonials />
     </div>
   );
 }
