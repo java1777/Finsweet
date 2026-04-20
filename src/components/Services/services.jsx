@@ -35,7 +35,7 @@ export default function Services() {
               href="#"
               className="flex items-center gap-3 text-indigo-500 font-medium text-[16px] pt-6 rounded hover:bg-indigo-50 transition"
             >
-              Read about us
+              Read more
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path
                   d="M4 10H16M16 10L11 5M16 10L11 15"
@@ -61,7 +61,7 @@ export default function Services() {
               href="#"
               className="flex items-center gap-3 text-indigo-500 font-medium text-[16px] pt-6 rounded hover:bg-indigo-50 transition"
             >
-              Read about us
+              Read more
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path
                   d="M4 10H16M16 10L11 5M16 10L11 15"
@@ -87,7 +87,7 @@ export default function Services() {
               href="#"
               className="flex items-center gap-3 text-indigo-500 font-medium text-[16px] pt-6 rounded hover:bg-indigo-50 transition"
             >
-              Read about us
+              Read more
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path
                   d="M4 10H16M16 10L11 5M16 10L11 15"

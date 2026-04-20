@@ -34,7 +34,7 @@ export default function Testimonials() {
   const [active, setActive] = useState(0);
 
   return (
-    <section className="flex items-center justify-between px-20 py-16 bg-[#f5f5fa]">
+    <section className="flex items-center justify-between px-40 py-24 bg-[#f5f5fa]">
       <div className="max-w-sm">
         <div className="w-4 h-4 bg-indigo-600 mb-4"></div>
 

@@ -5,6 +5,7 @@ import Expertise from "./components/Expertise/expertise";
 import Services from "./components/Services/services";
 import Process from "./components/Process/process";
 import Testimonials from "./components/Testimonials/testimonials";
+import Blogs from "./components/Blogs/blogs";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Services />
       <Process />
       <Testimonials />
+      <Blogs />
     </div>
   );
 }
