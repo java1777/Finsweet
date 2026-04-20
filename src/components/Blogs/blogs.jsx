@@ -10,9 +10,7 @@ export default function Blogs() {
           Read our latest blogs & news
         </h2>
 
-        {/* Left va Right */}
         <div className="flex gap-8">
-          {/* LEFT */}
           <div className="flex flex-col gap-6 flex-1">
             <div className="flex justify-between bg-white w-156 h-62">
               <div className="w-full">
