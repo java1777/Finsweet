@@ -10,7 +10,7 @@ export default function Navbar() {
         <img src={logo} alt="Finsweet logo" />
       </a>
       <div className="flex pl-9 gap-9">
-        <Link>
+        <Link to="/">
           <a
             href="#"
             className="font-medium text-base leading-[150%] text-gray-400 hover:text-white transition"
