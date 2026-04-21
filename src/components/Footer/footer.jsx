@@ -118,7 +118,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="flex gap-6.5">
+        <div className="flex gap-6.5 cursor-pointer">
           <FontAwesomeIcon icon={faFacebook} />
           <FontAwesomeIcon icon={faTwitter} />
           <FontAwesomeIcon icon={faInstagram} />
