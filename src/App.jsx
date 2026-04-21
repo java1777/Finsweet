@@ -7,6 +7,7 @@ import Process from "./components/Process/process";
 import Testimonials from "./components/Testimonials/testimonials";
 import Blogs from "./components/Blogs/blogs";
 import Newsletter from "./components/Newsletter/newsletter";
+import Footer from "./components/Footer/footer";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Testimonials />
       <Blogs />
       <Newsletter />
+      <Footer />
     </div>
   );
 }
