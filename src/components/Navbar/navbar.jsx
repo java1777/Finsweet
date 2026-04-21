@@ -1,6 +1,7 @@
 import logo from "../../assets/icons/logo.svg";
 import arrowRight from "../../assets/icons/arrowRight.svg";
 import Button from "../Button/btn";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -8,56 +9,57 @@ export default function Navbar() {
       <a href="#">
         <img src={logo} alt="Finsweet logo" />
       </a>
-      <ul className="flex pl-9 gap-9">
-        <li>
+      <div className="flex pl-9 gap-9">
+        <Link>
           <a
             href="#"
             className="font-medium text-base leading-[150%] text-gray-400 hover:text-white transition"
           >
             Home
           </a>
-        </li>
-        <li>
+        </Link>
+        <Link to="service">
           <a
             href="#"
             className="font-medium text-base leading-[150%] text-gray-400 hover:text-white transition"
           >
             Service
           </a>
-        </li>
-        <li>
+        </Link>
+        <Link>
           <a
             href="#"
             className="font-medium text-base leading-[150%] text-gray-400 hover:text-white transition"
           >
             Company
           </a>
-        </li>
-        <li>
+        </Link>
+        <Link>
           <a
             href="#"
             className="font-medium text-base leading-[150%] text-gray-400 hover:text-white transition"
           >
             Career
           </a>
-        </li>
-        <li>
+        </Link>
+        <Link>
           <a
             href="#"
             className="font-medium text-base leading-[150%] text-gray-400 hover:text-white transition"
           >
             Blog
           </a>
-        </li>
-        <li>
+        </Link>
+        <Link>
           <a
             href="#"
             className="font-medium text-base leading-[150%] text-gray-400 hover:text-white transition"
           >
             Contact us
           </a>
-        </li>
-      </ul>
+        </Link>
+      </div>
+
       <Button text="Clone project" icon={arrowRight} />
     </nav>
   );
