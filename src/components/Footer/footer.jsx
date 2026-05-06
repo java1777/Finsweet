@@ -7,6 +7,7 @@ import {
   faTwitter,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link, Links } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -42,14 +43,20 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col gap-4 mt-8">
-            {["Home", "Service", "Company", "Career", "News"].map((item) => (
-              <a
-                key={item}
-                href={`/${item}`}
+            {[
+              { name: "Home", path: "/" },
+              { name: "Service", path: "/service" },
+              { name: "Company", path: "/company" },
+              { name: "Career", path: "/career" },
+              { name: "News", path: "/news" },
+            ].map((item) => (
+              <Link
+                key={item.name}
+                to={item.path}
                 className="font-semibold text-[16px] text-[#232536] hover:text-indigo-500 transition"
               >
-                {item}
-              </a>
+                {item.name}
+              </Link>
             ))}
           </div>
 
