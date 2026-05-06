@@ -45,7 +45,7 @@ export default function Footer() {
             {["Home", "Service", "Company", "Career", "News"].map((item) => (
               <a
                 key={item}
-                href="#"
+                href={`/${item}`}
                 className="font-semibold text-[16px] text-[#232536] hover:text-indigo-500 transition"
               >
                 {item}
